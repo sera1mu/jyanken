@@ -1,0 +1,28 @@
+footer {
+    padding-left: 15px;
+}
+
+#text {
+    padding-left: 15px;
+}
+
+#dev-alert {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer a {
+    color: #000000;
+    float: right;
+    margin-right: 15px;
+}
+
+.content .box {
+    display: inline-block;
+    text-align: center;
+}
+
+.select {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ホーム | じゃんけんゲーム</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">じゃんけんゲーム</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">ホーム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="game.html">ゲーム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="changelog.html">CHANGELOG</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="alert alert-danger" role="alert" id="dev-alert">
+            このじゃんけんゲームは開発中のため、多数のバグが含まれている可能性がございます。ご了承ください。
+        </div>
+        <p id="text">
+            ようこそ。このページはJavaScriptの勉強の過程で作ったじゃんけんゲームです。<br>
+            上のメニューから「ゲーム」を選んでぜひ遊んでみてください。<br>
+            「CHANGELOG」では変更された点を確認できます。
+        </p>
+        <p id="text">
+            実はこれ作るの2回目です。最初作ったものは下のリンクにあります。<br>
+            <a href="https://seraimu-sandbox.glitch.me/rock-paper-scissors/index.html">https://seraimu-sandbox.glitch.me/rock-paper-scissors/index.html</a><br>
+            ただ、久しぶりに見てみると作り直したくなったので作り直しています。<br>
+            前回と違う点としては以下の様なものがあります。
+            <ul>
+                <li>WebP対応</li>
+                <li>勝利などの表示を画像化</li>
+                <li>Bootstrap4に変更</li>
+            </ul>
+        </p>
+    </div>
+    <footer>
+        &copy; 2020 Seraimu.
+        <a href="https://github.com"><i class="fab fa-github fa-2x"></i></a>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/139dd14460.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
