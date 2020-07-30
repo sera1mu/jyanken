@@ -8,7 +8,7 @@ const updateImage = (imgName, element) => {
     );
     element[0].children[0].children[1].setAttribute(
         "src",
-        `img/${imgName}/png`
+        `img/${imgName}.png`
     );
     return;
 };
