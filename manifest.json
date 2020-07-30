@@ -1,0 +1,13 @@
+{
+    "short_name": "Jyanken",
+    "name": "Rock-Scissors-Paper Game",
+    "display": "standalone",
+    "start_url": "index.html",
+    "icons": [
+        {
+            "src": "img/rock.png",
+            "sizes": "169x169",
+            "type": "image/png"
+        }
+    ]
+}
