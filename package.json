@@ -1,9 +1,16 @@
 {
-  "name": "jyanken",
-  "version": "1.0.0",
-  "description": "A JavaScript rock-paper-scissors game.",
-  "repository": "https://github.com/seraimu/jyanken.git",
-  "author": "seraimu",
-  "license": "Apache-2.0",
-  "private": true
+    "name": "jyanken",
+    "version": "1.0.0",
+    "description": "A JavaScript rock-paper-scissors game.",
+    "repository": "https://github.com/seraimu/jyanken.git",
+    "author": "seraimu",
+    "license": "Apache-2.0",
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.5.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5"
+    }
 }
