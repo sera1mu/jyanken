@@ -1,0 +1,9 @@
+{
+  "name": "jyanken",
+  "version": "1.0.0",
+  "description": "A JavaScript rock-paper-scissors game.",
+  "repository": "https://github.com/seraimu/jyanken.git",
+  "author": "seraimu",
+  "license": "Apache-2.0",
+  "private": true
+}
