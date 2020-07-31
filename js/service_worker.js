@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 var CACHE_NAME = "rsp-caches";
 var urlsToCache = [
     "/jyanken/index.html",
