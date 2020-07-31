@@ -2,7 +2,7 @@ const count = { all: 0, win: 0, draw: 0, lose: 0 };
 const selects = { 0: "rock", 1: "scissors", 2: "paper" };
 
 const updateImage = (imgName, className) => {
-    $(function () {
+    $(() => {
         let elem = $(`.${className}`);
         elem.children("picture")
             .children("source")
@@ -57,5 +57,31 @@ const pushEvent = (id) => {
     let result = judge(pcSelect, npcSelect);
     viewResult(pcSelect, npcSelect, result);
     addCount(result);
+    return;
+};
+
+const preLoadImages = (imagePaths) => {
+    imagePaths.forEach((value) => {
+        $(`<img src="${value}">`);
+    });
+    return;
+};
+
+window.onload = () => {
+    preLoadImages([
+        "img/draw.png",
+        "img/draw.webp",
+        "img/lose.png",
+        "img/lose.webp",
+        "img/paper.png",
+        "img/paper.webp",
+        "img/rock.png",
+        "img/rock.webp",
+        "img/scissors.png",
+        "img/scissors.webp",
+        "img/win.png",
+        "img/win.webp",
+    ]);
+    console.log("Loaded images.");
     return;
 };
