@@ -3,6 +3,8 @@
     "name": "Rock-Scissors-Paper Game",
     "display": "standalone",
     "start_url": "index.html",
+    "theme_color": "white",
+    "background_color": "white",
     "icons": [
         {
             "src": "https://seraimu.github.io/jyanken/img/icons/icon_192.png",
