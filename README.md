@@ -9,6 +9,7 @@
 
 - [ ] PWA 対応
 - [ ] Bootstrap から[Umi](https://ysakasin.github.io/Umi/)への移行
+- [ ] Git-LFS の導入
 
 ## クレジット
 
