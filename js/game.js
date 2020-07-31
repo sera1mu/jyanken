@@ -1,21 +1,19 @@
 const count = { all: 0, win: 0, draw: 0, lose: 0 };
 const selects = { 0: "rock", 1: "scissors", 2: "paper" };
 
-const updateImage = (imgName, element) => {
-    element[0].children[0].children[0].setAttribute(
-        "srcset",
-        `img/${imgName}.webp`
-    );
-    element[0].children[0].children[1].setAttribute(
-        "src",
-        `img/${imgName}.png`
-    );
+const updateImage = (imgName, className) => {
+    $(function () {
+        let elem = $(`.${className}`);
+        elem.children("picture")
+            .children("source")
+            .attr("srcset", `img/${imgName}.webp`);
+        elem.children("img").attr("src", `img/${imgName}.png`);
+    });
     return;
 };
 
 const render = (imgName, className) => {
-    let elem = document.getElementsByClassName(className);
-    updateImage(imgName, elem);
+    updateImage(imgName, className);
     return;
 };
 
