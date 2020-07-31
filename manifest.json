@@ -1,8 +1,10 @@
 {
+    "categories": ["games"],
+    "lang": "ja",
     "short_name": "Jyanken",
     "name": "Rock-Scissors-Paper Game",
     "display": "standalone",
-    "start_url": "index.html",
+    "start_url": "/jyanken/index.html",
     "theme_color": "#4169e1",
     "background_color": "white",
     "icons": [
