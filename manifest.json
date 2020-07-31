@@ -2,7 +2,7 @@
     "short_name": "Jyanken",
     "name": "Rock-Scissors-Paper Game",
     "display": "standalone",
-    "start_url": "https://seraimu.github.io/jyanken/index.html",
+    "start_url": "index.html",
     "icons": [
         {
             "src": "https://seraimu.github.io/jyanken/img/icons/icon_192.png",
